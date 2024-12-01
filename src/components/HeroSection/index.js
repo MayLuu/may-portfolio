@@ -1,10 +1,12 @@
 import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
-import HeroImg from '../../images/HeroImage.jpg'
+import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton, IconButton } from './HeroStyle'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
 const HeroSection = () => {
     return (
         <div id="about">
@@ -28,12 +30,26 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+
+                        <HeroInnerContainer>
+
+                            <ResumeButton download href={Bio.resume} >Check Resume</ResumeButton>
+                            <IconButton href={Bio.linkedin} target='_blank'>
+                                <LinkedInIcon sx={{ color: '#fff', fontSize: 40 }} />
+                            </IconButton>
+                            <IconButton href={Bio.github} target='_blank'>
+                                <GitHubIcon sx={{color: '#fff',fontSize:40}}/>
+                            </IconButton>
+                            <IconButton href={Bio.email} >
+                                <EmailIcon sx={{color: '#fff',fontSize:40}}/>
+                            </IconButton>
+                        </HeroInnerContainer>
+
+
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
 
-                        <Img src={HeroImg} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
 

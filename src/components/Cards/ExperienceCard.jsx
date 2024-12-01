@@ -156,10 +156,13 @@ const ExperienceCard = ({ experience }) => {
                 </Body>
             </Top>
             <Description>
-                {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
-
-                }
+                {Array.isArray(experience?.desc) && experience.desc.length > 0 ? (
+                    experience.desc.map((exp, index) => (
+                        <ul key={exp.id || index}>• {exp}</ul>
+                    ))
+                ) : (
+                    <p>No experience description available.</p>
+                )}
                 {experience?.skills &&
                     <>
                         <br />

@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 html{
@@ -16,6 +15,10 @@ body{
   margin: 0px !important;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+  --primary-color:-webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
 }
 
 /* width */
@@ -39,3 +42,4 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #626970;
   }
+

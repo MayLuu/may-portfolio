@@ -37,12 +37,13 @@ export const NavLogo = styled(LinkR)`
     text-decoration: none;
     @media (max-width: 640px) {
       padding: 0 0px;
-  }
-`;
+    }
+    `;
 export const Span = styled.div`
+    font-family: "Dancing Script", serif;
     padding: 0 4px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
 `;
 export const NavItems = styled.ul`
     width: 100%;
@@ -58,6 +59,17 @@ export const NavItems = styled.ul`
     }
 `;
 
+export const ThemeToggleButton = styled.button`
+    padding: 0px 30px 0;
+    background-color: #111;
+    border-radius: 20px;
+    width:fit-content;
+    height: 24px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    
+`
 export const NavLink = styled.a`
     color: ${({ theme }) => theme.text_primary};
     font-weight: 500;

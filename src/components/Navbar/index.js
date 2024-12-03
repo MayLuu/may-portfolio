@@ -1,8 +1,10 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, MobileIcon, MobileMenu, MobileLink, ThemeToggleButton } from './NavbarStyledComponent'
 import { FaBars } from 'react-icons/fa';
+import Brightness5Icon from '@mui/icons-material/Brightness5';
+import BedtimeIcon from '@mui/icons-material/Bedtime';
 const Navbar = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
+const [isOpen, setIsOpen] = React.useState(false);
   return (
     <Nav>
       <NavbarContainer>
@@ -24,6 +26,11 @@ const Navbar = () => {
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
 
+          {/* <ThemeToggleButton >
+            <BedtimeIcon sx={{ color: '#fff', fontSize: 20 }}/>
+            <Brightness5Icon sx={{ color: '#fff', fontSize: 20 }}/>
+          </ThemeToggleButton> */}
+
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
@@ -44,6 +51,7 @@ const Navbar = () => {
             }}>Education</MobileLink>
           </MobileMenu>
         }
+        
       </NavbarContainer>
     </Nav>
   )

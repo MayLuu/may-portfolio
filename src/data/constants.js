@@ -9,7 +9,7 @@ export const Bio = {
     "A front-end web and mobile developer specializing in ReactJS. Skilled in creating intuitive, user-friendly, responsive websites and applications.",
   github: "https://github.com/mayluu",
   resume:
-    "https://drive.google.com/uc?export=download&id=16NPWaydV_Yowg3B8YHRy-K2noeLGmF6Q",
+    "https://drive.google.com/uc?export=download&id=1IXZYEOb1cEO3iZPbrcU-rJUasGvipHpx",
   linkedin: "https://www.linkedin.com/in/my-luu",
   email: "#contact",
 };
@@ -122,7 +122,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/fpt-university-logo.png?alt=media&token=968b5c85-a52f-4886-ade9-dcf9564b016d",
     school: "FPT University - Ho Chi Minh City",
     date: "Oct 2021 - Dec 2023",
     grade: "GPT: 3/4",
@@ -144,32 +144,28 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Audiory - Smart Reading Story",
-    date: "Jun 2023 - Jul 2023",
+    title: "Dieu Thien Restaurant - Vegeterian landing page",
+    date: "Mar 2024",
     description:
-      "Democratizing storytelling for a new generation of diverse Gen Z writers and their fans.",
+      "A sleek and responsive vegetarian restaurant landing page built with Next.js and Ant Design, featuring dynamic navigation, elegant UI components, and fast-loading performance to enhance user engagement.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/DieuThienBanner.jpg?alt=media&token=19f1cc8e-6958-4729-89ee-6438a973f4a2",
     tags: [
-      "ReactJS",
-      "Material UI",
-      "Flutter",
-      "Redux",
-      ".NET",
-      "MySQL",
-      "FPT AI"
+      "NextJS",
+      "Ant Design",
+      "i18n"
     ],
-    github: "https://github.com/mayluu",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/MayLuu/dieu-thien-vegeterian",
+    webapp: "https://www.amthucchaydieuthien.com/vi",
   },
   {
     id: 1,
-    title: "Habit app tracking",
-    date: "Jun 2023 - Jul 2023",
+    title: "Audiory - Smart story reading and composing system",
+    date: "Jul 2023 - Dec 2023",
     description:
       "Democratizing storytelling for a new generation of diverse Gen Z writers and their fans.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/thumbnail%20(1).jpg?alt=media&token=a1cdce02-da48-4fd5-ad2b-602555f63fc3",
     tags: [
       "ReactJS",
       "Material UI",
@@ -179,40 +175,40 @@ export const projects = [
       "MySQL",
       "FPT AI"
     ],
-    github: "https://github.com/mayluu",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/Eskimo112/audiory-dashboard",
+    webapp: "audiory-dashboard.vercel.app",
   },
-  {
-    id: 2,
-    title: "MERCEDES-BENZ Haxaco - Car showcase website",
-    date: "Dev 2023",
-    description:
-      [
-        "•A class web app in order to buy, sell or exchange old stuffs among students using ReactJS, Redux and .NET Core.",
-"•Collaborated with back-end teammates to develop user-facing features, plan for meetings and ensure on-time project and build user interfaces."
-      ],
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "ReactJS",
-      "Material UI",
-      "Flutter",
-      "Redux",
-      ".NET",
-      "MySQL",
-      "FPT AI"
-    ],
-    github: "https://github.com/mayluu",
-    webapp: "https://trackify.duckdns.org",
-  },
+  // {
+  //   id: 2,
+  //   title: "Habit app tracking",
+  //   date: "Jun 2023 - Jul 2023",
+  //   description:
+  //     "Democratizing storytelling for a new generation of diverse Gen Z writers and their fans.",
+  //   image:
+  //     "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+  //   tags: [
+  //     "ReactJS",
+  //     "Material UI",
+  //     "Flutter",
+  //     "Redux",
+  //     ".NET",
+  //     "MySQL",
+  //     "FPT AI"
+  //   ],
+  //   github: "https://github.com/mayluu",
+  //   webapp: "https://trackify.duckdns.org",
+  // },
   {
     id: 3,
-    title: "FExchange - Stuff Exchange Management System",
-    date: "May 2022 - Jul 2022",
+    title: "Mercedes-benz Haxaco - Car showcase website",
+    date: "Dec 2023",
     description:
-      "Democratizing storytelling for a new generation of diverse Gen Z writers and their fans.",
+      [
+        "A class web app in order to buy, sell or exchange old stuffs among students using ReactJS, Redux and .NET Core.",
+"Collaborated with back-end teammates to develop user-facing features, plan for meetings and ensure on-time project and build user interfaces."
+      ],
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/file%20cover%20-%202.png?alt=media&token=c0f3d374-e762-4330-938a-e438ae1f0f45",
     tags: [
       "ReactJS",
       "Material UI",
@@ -222,9 +218,27 @@ export const projects = [
       "MySQL",
       "FPT AI"
     ],
-    github: "https://github.com/mayluu",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/MayLuu/car-showcase",
+    webapp: "http://mercedesvn.net",
   },
+  // {
+  //   id: 4,
+  //   title: "Horizon Tek",
+  //   date: "May 2022 - Jul 2022",
+  //   description:
+  //     "Democratizing storytelling for a new generation of diverse Gen Z writers and their fans.",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/thumbnail%20(2).jpg?alt=media&token=69f71f40-e628-499f-8ce1-3e9e732fe453",
+  //   tags: [
+  //     "Angular",
+  //     "ThreeJS",
+  //     "Angular material",
+  //     "Redux",
+  //     ".NET"
+  //   ],
+  //   github: "https://github.com/mayluu",
+  //   webapp: "https://trackify.duckdns.org",
+  // },
   
 ];
 

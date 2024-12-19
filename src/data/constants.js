@@ -144,10 +144,10 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Dieu Thien Restaurant - Vegeterian landing page",
+    title: "Dieu Thien Resrtaurant - Vegeterian landing page",
     date: "Mar 2024",
     description:
-      "A sleek and responsive vegetarian restaurant landing page built with Next.js and Ant Design, featuring dynamic navigation, elegant UI components, and fast-loading performance to enhance user engagement.",
+      "A sleek and responsive vegetarian landing page built with Next.js and Ant Design, featuring dynamic navigation, elegant UI components, and fast-loading performance to enhance user engagement.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/DieuThienBanner.jpg?alt=media&token=19f1cc8e-6958-4729-89ee-6438a973f4a2",
     tags: [
@@ -211,12 +211,7 @@ export const projects = [
       "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/file%20cover%20-%202.png?alt=media&token=c0f3d374-e762-4330-938a-e438ae1f0f45",
     tags: [
       "ReactJS",
-      "Material UI",
-      "Flutter",
-      "Redux",
-      ".NET",
-      "MySQL",
-      "FPT AI"
+      "MailJS"
     ],
     github: "https://github.com/MayLuu/car-showcase",
     webapp: "http://mercedesvn.net",

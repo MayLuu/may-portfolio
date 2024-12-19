@@ -57,11 +57,11 @@ export const skills = [
         image:
           "https://mui.com/static/logo.png",
       },
-      {
-        name: "Flutter",
-        image:
-          "https://cdn.prod.website-files.com/6047a9e35e5dc54ac86ddd90/63018720eab248248ff88ee3_1bd86e15.png",
-      },
+      // {
+      //   name: "Flutter",
+      //   image:
+      //     "https://cdn.prod.website-files.com/6047a9e35e5dc54ac86ddd90/63018720eab248248ff88ee3_1bd86e15.png",
+      // },
     ],
   },
   
@@ -169,7 +169,6 @@ export const projects = [
     tags: [
       "ReactJS",
       "Material UI",
-      "Flutter",
       "Redux",
       ".NET",
       "MySQL",

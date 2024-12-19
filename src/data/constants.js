@@ -9,7 +9,7 @@ export const Bio = {
     "A front-end web and mobile developer specializing in ReactJS. Skilled in creating intuitive, user-friendly, responsive websites and applications.",
   github: "https://github.com/mayluu",
   resume:
-    "https://drive.google.com/uc?export=download&id=1IXZYEOb1cEO3iZPbrcU-rJUasGvipHpx",
+    "https://drive.google.com/uc?export=download&id=4NrCoG-KUOPWFsevpZs06vj4T-KvzTnm",
   linkedin: "https://www.linkedin.com/in/my-luu",
   email: "#contact",
 };

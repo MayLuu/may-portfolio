@@ -53,6 +53,11 @@ export const HeroInnerContainer = styled.div`
   @media (max-width: 960px) {
     flex-direction: column;
   }
+  @media (max-width: 420px) {
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+  }
+  
 `;
 export const HeroLeftContainer = styled.div`
   width: 100%;
@@ -81,11 +86,8 @@ export const HeroRightContainer = styled.div`
   justify-content: end;
   gap: 12px;
   @media (max-width: 960px) {
-    order: 1;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 80px;
-  }
+   display: none;
+  } 
 
   @media (max-width: 640px) {
     margin-bottom: 30px;
@@ -187,6 +189,7 @@ export const ResumeButton = styled.a`
     background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
     box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
+    min-width: fit-content;
     &:hover {
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;
@@ -202,8 +205,24 @@ export const ResumeButton = styled.a`
 
 `;
 
+
+
 export const IconButton = styled.a`
   width: 40px;
-  height:40px
-`
+  height:40px;
+  
+`;
+
+export const ContactButtonWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  
+  @media (max-width: 968px) {
+       padding-top: 20px;
+    } 
+  
+`;
 

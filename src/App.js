@@ -25,6 +25,10 @@ const Wrapper = styled.div`
   /* background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);; */
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
+
+  @media (max-width: 768px) {
+    padding: 0 16px;
+  }
 `
 function App() {
   const [darkMode, setDarkMode] = useState(true);

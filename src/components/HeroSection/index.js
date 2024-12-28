@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton, IconButton } from './HeroStyle'
+import { HeroContainer, HeroBg, HeroLeftContainer, ContactButtonWrapper, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton, IconButton } from './HeroStyle'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 
@@ -34,15 +34,18 @@ const HeroSection = () => {
                         <HeroInnerContainer>
 
                             <ResumeButton download href={Bio.resume} >Check Resume</ResumeButton>
-                            <IconButton href={Bio.linkedin} target='_blank'>
-                                <LinkedInIcon sx={{ color: '#fff', fontSize: 40 }} />
-                            </IconButton>
-                            <IconButton href={Bio.github} target='_blank'>
-                                <GitHubIcon sx={{color: '#fff',fontSize:40}}/>
-                            </IconButton>
-                            <IconButton href={Bio.email} >
-                                <EmailIcon sx={{color: '#fff',fontSize:40}}/>
-                            </IconButton>
+
+                            <ContactButtonWrapper>
+                                <IconButton href={Bio.linkedin} target='_blank'>
+                                    <LinkedInIcon sx={{ color: '#fff', fontSize: 40 }} />
+                                </IconButton>
+                                <IconButton href={Bio.github} target='_blank'>
+                                    <GitHubIcon sx={{ color: '#fff', fontSize: 40 }} />
+                                </IconButton>
+                                <IconButton href={Bio.email} >
+                                    <EmailIcon sx={{ color: '#fff', fontSize: 40 }} />
+                                </IconButton>
+                            </ContactButtonWrapper>
                         </HeroInnerContainer>
 
 

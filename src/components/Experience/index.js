@@ -36,6 +36,9 @@ const Wrapper = styled.div`
     @media (max-width: 960px) {
         flex-direction: column;
     }
+    @media (max-width: 768px) {
+        padding:0 20px;
+    }
 `;
 
 const Title = styled.div`
@@ -70,6 +73,7 @@ const TimelineSection = styled.div`
     align-items: center;
     justify-content: center;
     gap: 12px;
+    
 `;
 
 
@@ -96,7 +100,6 @@ const index = () => {
                             </TimelineItem>
                         ))}
                     </Timeline>
-
                 </TimelineSection>
             </Wrapper>
         </Container>

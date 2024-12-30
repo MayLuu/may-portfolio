@@ -16,7 +16,7 @@ const HeroSection = () => {
                 </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">
-                        <Title>Hi, I am <br /> {Bio.name}</Title>
+                        <Title>Hi, I am {Bio.name}</Title>
                         <TextLoop>
                             I am a
                             <Span>
@@ -37,13 +37,13 @@ const HeroSection = () => {
 
                             <ContactButtonWrapper>
                                 <IconButton href={Bio.linkedin} target='_blank'>
-                                    <LinkedInIcon sx={{ color: '#fff', fontSize: 40 }} />
+                                    <LinkedInIcon sx={{ color: '#fff', fontSize: 46 }} />
                                 </IconButton>
                                 <IconButton href={Bio.github} target='_blank'>
-                                    <GitHubIcon sx={{ color: '#fff', fontSize: 40 }} />
+                                    <GitHubIcon sx={{ color: '#fff', fontSize: 46 }} />
                                 </IconButton>
                                 <IconButton href={Bio.email} >
-                                    <EmailIcon sx={{ color: '#fff', fontSize: 40 }} />
+                                    <EmailIcon sx={{ color: '#fff', fontSize: 46 }} />
                                 </IconButton>
                             </ContactButtonWrapper>
                         </HeroInnerContainer>
@@ -51,9 +51,9 @@ const HeroSection = () => {
 
                     </HeroLeftContainer>
 
-                    <HeroRightContainer id="Right">
+                    {/* <HeroRightContainer id="Right">
 
-                    </HeroRightContainer>
+                    </HeroRightContainer> */}
                 </HeroInnerContainer>
 
             </HeroContainer>

@@ -6,7 +6,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "A front-end web and mobile developer specializing in ReactJS. Skilled in creating intuitive, user-friendly, responsive websites and applications.",
+    "A software developer with 2 years of experience in React and modern JavaScript frameworks, I specialize in creating dynamic, responsive user interfaces that deliver exceptional digital experiences.",
   github: "https://github.com/mayluu",
   resume:
     "https://drive.google.com/uc?export=download&id=14NrCoG-KUOPWFsevpZs06vj4T-KvzTnm",
@@ -64,6 +64,41 @@ export const skills = [
       // },
     ],
   },
+  {
+    title: "Others",
+    skills: [
+      {
+        name: "Git",
+        image:
+          "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+      },
+      {
+        name: "Github",
+        image:
+          "https://www.vectorlogo.zone/logos/github/github-icon.svg",
+      },
+      {
+        name: "Postman",
+        image:
+          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+      },
+      {
+        name: "Firebase",
+        image:
+          "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+      {
+        name: "Vercel",
+        image:
+          "https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg",
+      },
+      {
+        name: "Figma",
+        image:
+          "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
+      },
+    ],
+  },
   
 ];
 
@@ -103,7 +138,7 @@ export const experiences = [
   {
     id: 2,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUo_9_9aIv5fFKvbuVfGh2M9EjMivRgkpBoQ&s",
-    role: "Front-end Developer Fresher",
+    role: "Front-end Developer Inter",
     company: "FPT - FAcademy",
     date: "Sep 2022 - Dec 2022",
     desc: [
@@ -153,7 +188,8 @@ export const projects = [
     tags: [
       "NextJS",
       "Ant Design",
-      "i18n"
+      "i18n",
+      "Firebase"
     ],
     github: "https://github.com/MayLuu/dieu-thien-vegeterian",
     webapp: "https://www.amthucchaydieuthien.com/vi",

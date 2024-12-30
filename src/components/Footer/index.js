@@ -1,11 +1,15 @@
 import styled from 'styled-components';
+import { Bio } from '../../data/constants';
+
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
 
 const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
-  //background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
 `;
 
 
@@ -79,6 +83,25 @@ const Copyright = styled.p`
   text-align: center;
 `;
 
+export const IconButton = styled.a`
+  width: 16px;
+  height:16px;
+`;
+
+export const ContactButtonWrapper = styled.div`
+  width: fit-content;
+  padding: 0 12px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+
+  
+  @media (max-width: 968px) {
+       padding-top: 20px;
+    } 
+  
+`;
+
 function Footer() {
   return (
     <FooterContainer>
@@ -91,9 +114,20 @@ function Footer() {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </Nav>
-        <Copyright>
-          &copy; 2023 My Luu. All rights reserved.
-        </Copyright>
+        <ContactButtonWrapper>
+          <IconButton href={Bio.linkedin} target='_blank'>
+            <LinkedInIcon sx={{ color: '#fff', fontSize: 28 }} />
+          </IconButton>
+          <IconButton href={Bio.github} target='_blank'>
+            <GitHubIcon sx={{ color: '#fff', fontSize: 28 }} />
+          </IconButton>
+          <IconButton href={Bio.email} >
+            <EmailIcon sx={{ color: '#fff', fontSize: 28 }} />
+          </IconButton>
+        </ContactButtonWrapper>
+        {/* <Copyright>
+          &copy; 2023 My . All rights reserved.
+        </Copyright> */}
 
       </FooterWrapper>
     </FooterContainer>

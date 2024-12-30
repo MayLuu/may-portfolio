@@ -40,7 +40,7 @@ margin-top: 12px;
 export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
-    max-width: 600px;
+    margin: auto;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         font-size: 16px;
@@ -52,15 +52,14 @@ const SkillsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
-  gap: 30px;
+  gap: 16px;
   justify-content: center;
 `
 
 const Skill = styled.div`
-  width: 100%;
-  max-width: 100%;
+  max-width: calc(50% - 16px);
   border-radius: 16px;
-  padding: 18px 36px;
+  /* padding: 18px 36px; */
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
@@ -81,10 +80,16 @@ const SkillList = styled.div`
   flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 20px;
+  border: 1px solid #fff;
+  padding: 24px;
+  border-radius: 16px;
+  flex: 1;
+  height: 100%;   
 `
 
 const SkillItem = styled.div`
-  flex: 1 1 calc(20% - 10px); 
+  flex: 1 1 calc(20% - 10px);
+  height:fit-content; 
   max-width: calc(20% - 10px);
   box-sizing: border-box;
   font-size: 16px;
@@ -108,6 +113,16 @@ const SkillItem = styled.div`
   }
 `
 
+const SkillGroupTitle = styled.h3`
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  text-shadow: #FC0 1px 0 10px;
+`
+
 const SkillImage = styled.img`
   width: 24px;
   height: 24px;
@@ -125,6 +140,7 @@ const Skills = () => {
           {skills.map((skill) => (
             <Skill>
               <SkillList>
+                <SkillGroupTitle>{skill.title}</SkillGroupTitle>
                 {skill.skills.map((item) => (
                   <SkillItem> 
                     <SkillImage src={item.image}/>

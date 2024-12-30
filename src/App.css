@@ -18,7 +18,7 @@ body{
 }
 
 :root{
-  --primary-color:-webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  --primary-color:-webkit-linear-gradient(225deg, #92fe9d 0%, #00c9ff 100%);
 }
 
 /* width */

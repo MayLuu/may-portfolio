@@ -2,6 +2,7 @@ import styled from "styled-components";
 import _default from "../../themes/default";
 
 export const HeroContainer = styled.div`
+  height:90vh;
   background: ${({ theme }) => theme.card_light};
   display: flex;
   justify-content: center;
@@ -45,7 +46,7 @@ export const HeroBg = styled.div`
 export const HeroInnerContainer = styled.div`
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   max-width: 1100px;
@@ -62,6 +63,7 @@ export const HeroInnerContainer = styled.div`
 export const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
+  text-align: center;
   @media (max-width: 960px) {
     order: 2;
     margin-bottom: 30px;
@@ -134,6 +136,7 @@ export const TextLoop = styled.div`
   font-weight: 600;
   font-size: 32px;
   display: flex;
+  justify-content: center;
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
@@ -184,12 +187,14 @@ export const ResumeButton = styled.a`
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
     background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: linear-gradient(225deg, #92fe9d 0%, #00c9ff 100%);
+    background: -moz-linear-gradient(225deg, #92fe9d 0%, #00c9ff 100%);
+    background: -webkit-linear-gradient(225deg, #92fe9d 0%, #00c9ff 100%);
     box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
     min-width: fit-content;
+
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);;
     &:hover {
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;
@@ -214,7 +219,8 @@ export const IconButton = styled.a`
 `;
 
 export const ContactButtonWrapper = styled.div`
-  width: 100%;
+  width: fit-content;
+  padding: 0 12px;
   display: flex;
   justify-content: center;
   gap: 12px;
